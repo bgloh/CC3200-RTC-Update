@@ -43,6 +43,7 @@
 ///
 /// test addition 
 
+/*
 // Core library for code-sense - IDE-based
 #if defined(WIRING) // Wiring specific
 #include "Wiring.h"
@@ -76,12 +77,15 @@
 #else // error
 #   error Platform not defined
 #endif // end IDE
+*/
+
 
 // Include application, user and local libraries
-#ifndef __CC3200R1M1RGC__
+//#ifndef __CC3200R1M1RGC__
 // Do not include SPI for CC3200 LaunchPad
-#include <SPI.h>
-#endif
+//#include <SPI.h>
+//#endif
+#include "Energia.h"
 #include <WiFi.h>
 
 // The time library provides all the tools.
