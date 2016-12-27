@@ -26,8 +26,8 @@
 ///
 /// @brief	Network name of SSID
 ///
-//char ssid[] = "NetweeN";
-char ssid[] = "SungwonGawon2_5G";
+char ssid[] = "NetweeN";
+//char ssid[] = "SungwonGawon2_5G";
 
 ///
 /// @brief	Network password
